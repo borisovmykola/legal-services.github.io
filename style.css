@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    background-color: red;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-1{
+    background-color: skyblue;
+    /*height: 100px;
+    width: 100px;*/
+    flex-grow: 1;
+    
+}
+
+.block-2{
+    background-color: gray;
+    /*height: 100px;
+    width: 100px;*/
+    
+}
+
+/*.block-3{
+    background-color: green;
+}*/
+
